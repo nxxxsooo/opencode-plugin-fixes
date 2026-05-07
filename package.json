@@ -1,0 +1,42 @@
+{
+  "name": "opencode-plugin-fixes",
+  "version": "0.1.0",
+  "description": "Small OpenCode runtime guard plugins for tool argument coercion and question retry blocking.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/driver.mjs",
+    "pack:dry": "npm pack --dry-run"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "plugin",
+    "mcp",
+    "ask-user-question"
+  ],
+  "author": "Mingjian Shao <mingjian@mjshao.fun>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nxxxsooo/opencode-plugin-fixes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nxxxsooo/opencode-plugin-fixes/issues"
+  },
+  "homepage": "https://github.com/nxxxsooo/opencode-plugin-fixes#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
