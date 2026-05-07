@@ -27,7 +27,7 @@ Separately, OpenCode's question UI can show `(no answer)` while the user is stil
 
 ## Install Today: GitHub Release File
 
-Until npm publish is completed, install the GitHub release as a local OpenCode plugin file:
+Until the maintainer logs in to npm and publishes the package, install the GitHub release as a local OpenCode plugin file:
 
 ```bash
 mkdir -p ~/.config/opencode/plugins
@@ -51,7 +51,7 @@ The file under `~/.config/opencode/plugins/` is auto-loaded by OpenCode on resta
 
 ## Future npm Install
 
-The package name `opencode-plugin-fixes` is available. After npm auth is completed and the package is published, use this single plugin entry instead:
+The package name `opencode-plugin-fixes` is available. After the maintainer logs in to npm and runs `npm publish`, use this single plugin entry instead:
 
 ```json
 {
@@ -119,7 +119,7 @@ The test driver covers all three hooks, including the regression that `filesyste
 
 ## 当前安装方式
 
-npm 包名已经可用，但真实 publish 还需要完成 npm 登录。现在先使用 GitHub release 文件作为本地 OpenCode 插件：
+npm 包名已经可用，但真实 publish 还需要维护者先完成 `npm login`，不是平台审批。现在先使用 GitHub release 文件作为本地 OpenCode 插件：
 
 ```bash
 mkdir -p ~/.config/opencode/plugins
